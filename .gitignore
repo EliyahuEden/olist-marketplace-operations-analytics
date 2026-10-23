@@ -1,0 +1,24 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+# Rebuilt transaction stores and exports
+**/data/raw/
+**/data/processed/
+**/data/warehouse/
+**/data/exports/
+*.sqlite
+*.duckdb*
+# Power BI machine caches
+**/.pbi/
+**/localSettings.json
+**/cache.abf
+*.log
+*.zip
+.DS_Store
+Thumbs.db
+desktop.ini

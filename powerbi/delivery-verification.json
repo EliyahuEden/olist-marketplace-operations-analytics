@@ -1,0 +1,15 @@
+{
+  "bytes": 7957152,
+  "sha256": "0f615298aa4196498cf9ec417e7326e5a5e98f730db0b3feb21127123d26afe8",
+  "pages": [
+    "Marketplace overview",
+    "Delivery operations",
+    "Service priorities",
+    "Seller detail"
+  ],
+  "native_visuals": 147,
+  "embedded_data": true,
+  "crc_passed": true,
+  "instructional_text_removed": true,
+  "saved_by": "Microsoft Power BI Desktop"
+}

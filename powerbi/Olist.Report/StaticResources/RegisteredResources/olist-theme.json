@@ -1,0 +1,25 @@
+{
+  "name": "olist-theme.json",
+  "dataColors": [
+    "#7460DF",
+    "#DA784D",
+    "#5485BD",
+    "#ABA2C6",
+    "#77A99F"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#20223B",
+  "tableAccent": "#7460DF",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#73798B"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 13,
+      "color": "#20223B"
+    }
+  }
+}

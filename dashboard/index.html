@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Olist | Marketplace intelligence</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<aside class="sidebar">
+ <a class="brand" href="#"><span class="brand-icon">o<span>•</span></span> olist<span class="brand-dot">.</span></a>
+ <div class="workspace">COMMERCE OPERATIONS</div>
+ <nav aria-label="Report pages">
+  <button class="nav active" data-page="overview"><span>◫</span> Marketplace overview <i>01</i></button>
+  <button class="nav" data-page="delivery"><span>⇄</span> Delivery operations <i>02</i></button>
+  <button class="nav" data-page="actions"><span>↗</span> Service priorities <i>03</i></button>
+ </nav>
+ <div class="rail-bottom"><span class="avatar">OA</span><div>Olist Analytics<small>Brazil · BRL</small></div><button id="method" aria-label="Open methodology">ⓘ</button></div>
+</aside>
+<main>
+ <header><div class="crumb">WORKSPACE <span>/</span> MARKETPLACE INTELLIGENCE</div><div class="header-right"><span class="snapshot"><b></b> Historical snapshot</span><button id="export" class="plain">↓ Export view</button><button id="help" class="plain">ⓘ Data notes</button></div></header>
+ <section class="heading"><div><div class="eyebrow">PERFORMANCE INTELLIGENCE <span>●</span> BRAZIL</div><h1 id="title">Marketplace performance</h1><p id="subtitle"></p></div><div class="heading-stamp">2017 — 2018<small>OLIST / COMMERCE OPERATIONS</small></div></section>
+ <section class="filterbar" aria-label="Global filters"><div class="filter"><label for="from">PURCHASE WINDOW</label><div><select id="from" aria-label="From month"></select><span class="to">→</span><select id="to" aria-label="To month"></select></div></div><div class="filter"><label for="state">CUSTOMER STATE</label><select id="state"><option value="">All Brazil</option></select></div><div class="filter category-filter"><label for="category">PRIMARY CATEGORY <span title="Orders assigned to the category with the largest item value">ⓘ</span></label><select id="category"><option value="">All categories</option></select></div><button id="reset" class="plain reset">↻ Reset</button><span id="scope" class="scope"></span></section>
+ <div id="live" aria-live="polite"></div>
+ <section id="kpis" class="kpis"></section>
+ <div id="content"></div>
+ <footer><div><b>olist<span>.</span></b> MARKETPLACE INTELLIGENCE <span class="divider">|</span> <span id="footScope"></span></div><span>Source: Olist public dataset · BRL · Eventual delivery outcomes · <button id="definitions">Metric definitions ↗</button></span></footer>
+</main>
+<dialog id="modal"><button class="close" aria-label="Close dialog">×</button><div id="modalContent"></div></dialog>
+<div id="toast" role="status"></div>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>

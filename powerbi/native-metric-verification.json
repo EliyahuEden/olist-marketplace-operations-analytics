@@ -1,0 +1,84 @@
+{
+  "baseline": {
+    "Orders": 99092,
+    "DeliveredOrders": 96211,
+    "GMV": 13181027.12999893,
+    "Eligible": 96203,
+    "Late": 6531,
+    "LateRate": 0.06788769580990198,
+    "LowLate": 0.6241768579492004,
+    "LowOnTime": 0.0924738175865085,
+    "RiskLift": 0.896570932503798
+  },
+  "month": {
+    "Orders": 800,
+    "DeliveredOrders": 750,
+    "Late": 22
+  },
+  "category": {
+    "Orders": 8758,
+    "Eligible": 8577,
+    "Late": 647
+  },
+  "seller": {
+    "Eligible": 1673,
+    "Late": 168,
+    "Rate": 0.100418410041841
+  },
+  "stateRJ": {
+    "Orders": 12792,
+    "Eligible": 12310,
+    "Late": 1495
+  },
+  "scenario": {
+    "Avoided": 3266,
+    "Rate": 0.03394384790495099
+  },
+  "status": "PASS",
+  "checks": [
+    {
+      "pass": true,
+      "name": "Native order count"
+    },
+    {
+      "pass": true,
+      "name": "Native delivered order count"
+    },
+    {
+      "pass": true,
+      "name": "Native GMV reconciles to Python"
+    },
+    {
+      "pass": true,
+      "name": "Native eligible and late totals"
+    },
+    {
+      "pass": true,
+      "name": "Native late rate reconciles to Python"
+    },
+    {
+      "pass": true,
+      "name": "Native review measures preserve rating filters"
+    },
+    {
+      "pass": true,
+      "name": "RJ relationship filtering"
+    },
+    {
+      "pass": true,
+      "name": "Category relationship filtering"
+    },
+    {
+      "pass": true,
+      "name": "Month relationship filtering"
+    },
+    {
+      "pass": true,
+      "name": "What-if parameter calculation"
+    },
+    {
+      "pass": true,
+      "name": "Seller relationship and single-seller attribution"
+    }
+  ]
+}

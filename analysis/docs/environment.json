@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "pandas": "3.0.1",
+  "numpy": "2.3.5",
+  "platform": "Windows",
+  "dependencies": "requirements.txt; sqlite3 and urllib use the Python standard library"
+}

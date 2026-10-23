@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "check": "Order grain and unique ID match all source orders",
+      "status": "PASS"
+    },
+    {
+      "check": "Merchandise totals reconcile to raw item rows",
+      "status": "PASS"
+    },
+    {
+      "check": "Freight totals reconcile to raw item rows",
+      "status": "PASS"
+    },
+    {
+      "check": "Dashboard delivered GMV independently matches source status and items",
+      "status": "PASS"
+    },
+    {
+      "check": "Late count independently matches calendar-day source calculation",
+      "status": "PASS"
+    },
+    {
+      "check": "All eligible deliveries accounted for",
+      "status": "PASS"
+    },
+    {
+      "check": "Missing delivered dates are excluded from reliability denominator",
+      "status": "PASS"
+    },
+    {
+      "check": "Dashboard contains every order in the reporting window",
+      "status": "PASS"
+    },
+    {
+      "check": "Browser payload reconciles delivered GMV",
+      "status": "PASS"
+    },
+    {
+      "check": "Browser payload reconciles late-order count",
+      "status": "PASS"
+    },
+    {
+      "check": "No missing durations in eligible browser records",
+      "status": "PASS"
+    },
+    {
+      "check": "All business SQL queries execute successfully",
+      "status": "PASS"
+    },
+    {
+      "check": "All critical quality checks pass",
+      "status": "PASS"
+    }
+  ],
+  "count": 13,
+  "status": "PASS"
+}
